@@ -1,11 +1,7 @@
 import xml.etree.cElementTree as Et
 import os
 
-booknames = ['Matthew',
-             'Mark',
-             'Luke',
-             'John',
-             'Acts',
+booknames = ['Acts',
              'Romans',
              '1Corinthians',
              '2Corinthians',
@@ -29,7 +25,7 @@ booknames = ['Matthew',
              'Jude',
              'Revelation']
 
-i = 1
+i = 5
 
 for book in booknames:
 
