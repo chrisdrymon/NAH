@@ -37,7 +37,7 @@ while i < 28:
     strungFile = file.read()
     file.close()
 
-    dePuNumber = str.maketrans('', '', "⸀⸁⸂·⸃;,.—01234567890")
+    dePuNumber = str.maketrans('', '', "⸀⸁⸂·⸃;,.–—01234567890")
     dePunct = str.maketrans('', '', string.punctuation)
     deEnglish = str.maketrans('', '', string.ascii_letters)
 
