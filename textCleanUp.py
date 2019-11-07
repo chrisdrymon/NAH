@@ -29,7 +29,7 @@ booknames = ['Matthew',
 
 i = 1
 
-while i < 6:
+while i < 28:
 
     # for each book, open the book file
     bookString = 'NA28-{:02}-{}.txt'.format(i, booknames[i-1])
