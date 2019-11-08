@@ -44,7 +44,6 @@ for book in booknames:
 
     # parse the XML
     tree = Et.parse(openTextFile)
-    root = tree.getroot()
 
     # make plain text a word list
     wordList = []
